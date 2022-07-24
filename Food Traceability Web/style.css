@@ -1,0 +1,81 @@
+body {
+    background-color: #4d7cbb;
+}
+.nama-app {
+    font-family: 'poppins';
+    font-size: 20px;
+    text-align: center;
+    color: #fefefe;
+    margin-top: 80px;
+    line-height: 30px;
+}
+.pilihan {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+.search {
+    height: 100px;
+    width: 100px;
+    background-color: #fefefe;
+    border-radius: 10px;
+}
+.scan {
+    height: 100px;
+    width: 100px;
+    background-color: #fefefe;
+    border-radius: 10px;
+    
+}
+.tulisan-pilihan {
+    font-family: 'poppins';
+    margin-top: 120px;
+    color: #fefefe;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+#searchbar {
+    margin-top: 800px;
+    color: white;
+    font-family: 'poppins';
+    text-align: center;
+}
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.type-here {
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    font-family: 'poppins';
+}
+.submit {
+    font-family: 'poppins';
+    height: 25px;
+    border-radius: 10px;
+}
+.example {
+    color: #fefefe;
+    font-family: 'poppins';
+    font-size: 10px;
+    margin-bottom: 500px;
+}
+img {
+    width: 100px;
+}
+p {
+    font-family: 'poppins';
+    color: #fefefe;
+    text-align: center;
+    font-size: 10px;
+}
+input {
+    outline: none;
+}

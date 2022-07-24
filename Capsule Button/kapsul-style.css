@@ -1,0 +1,148 @@
+body {
+    background-image: linear-gradient(25deg,rgb(107, 240, 158), rgb(27, 24, 24));
+  }
+  .gambar-aqil {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    border-radius: 25%;
+  }
+  .kapsul {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    left: 40%;
+    top: 170px;
+  }
+  .kapsul:hover .kapsul-atas {
+    -webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+              animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  .kapsul:hover .kapsul-bawah {
+    -webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+              animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  .kapsul:hover .gambar-aqil {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+              animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  }
+  .kapsul:hover .asep span {
+    position: relative;
+    display: block;
+    margin: 0 2px 50px;
+    min-width: 8px;
+    height: 120px;
+    background: #fff;
+    border-radius: 50%;
+    animation: asep 5s linear forwards;
+    opacity: 0;
+    filter: blur(8px);
+    animation-delay: calc(var(--i) * -0.5s);
+  }
+  .kapsul-atas {
+    width: 100px;
+    height: 200px; 
+    background-image: radial-gradient(circle at 100% 15%, aqua 3%, darkblue 60%, aqua 100%);
+    border-top-left-radius: 110px;  
+    border-bottom-left-radius: 110px; 
+    border-bottom: 1;
+    position: absolute;
+  }
+  .kapsul-bawah {
+    width: 100px;
+    height: 200px;
+    background-image: radial-gradient(circle at 0% 15%, aqua 3%, darkblue 60%, aqua 100%);
+    border-top-right-radius: 110px;
+    border-bottom-right-radius: 110px;
+    border-bottom: 1;
+    position: absolute;
+    left: 100px;
+  }
+  
+  .asep {
+    position: absolute;
+    display: flex;
+    z-index: 0;
+    left: 0;
+    top: 120px;
+  }
+  
+  @-webkit-keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-100px);
+              transform: translateX(-100px);
+    }
+  }
+  @keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-100px);
+              transform: translateX(-100px);
+    }
+  }
+  @-webkit-keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+  }
+  @keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+  }
+  @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes asep {
+    0% {
+      transform: translateY(0) scaleX(1);
+      opacity: 0;
+    }
+    15% {
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(-150px) scaleX(5);
+    }
+    95% {
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(-300px) scaleX(10);
+    }
+  }
