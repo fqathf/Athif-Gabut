@@ -1,10 +1,10 @@
 body {
-    background-color: #4d7cbb;
+    background-color: #e2e2e2;
     font-family: 'poppins';
 }
 .nama-event {
     font-family: 'poppins';
-    color: #fefefe;
+    color: #080808;
 }
 .border-nama {
     height: 10px;
@@ -14,16 +14,16 @@ body {
     margin-bottom: -10px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    background-color: #fefefe;
+    background-color: #080808;
 }
 .informasi {
-    color: #fefefe;
+    color: #080808;
 }
 p {
     font-size: 12px;
 }
 img {
     width: 300px;
-    border: #fefefe 10px solid;
+    border: #080808 10px solid;
     border-radius: 10px;
 }

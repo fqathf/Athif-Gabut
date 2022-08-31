@@ -1,9 +1,9 @@
 body {
-    background-color: #4d7cbb;
+    background-color: #e2e2e2;
 }
 .nama-produk {
     font-family: 'poppins';
-    color: white;
+    color: #080808;
 }
 .border-produk {
     height: 10px;
@@ -13,25 +13,29 @@ body {
     margin-bottom: -10px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    background-color: #fefefe;
+    background-color: #080808;
 }
 .information {
     font-family: 'poppins';
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
 }
 .table-title {
     text-align: center;
 }
 .container {
     width: 364px;
-    height: 450px;
-    background-color: #4d7cbb;
-    border: #fefefe 7px solid;
+    height: auto;
+    background-color: e2e2e2;
+    border: #080808 7px solid;
     border-radius: 10px;
-    color: #fefefe;
+    color: #080808;
 }
 table, th, td {
     width: 100%;
-    border: #fefefe 1px solid;
+    border: #080808 1px solid;
     border-collapse: collapse;
 }
 td {
@@ -39,10 +43,14 @@ td {
     text-align: center;
 }
 a {
-    color: #fefefe;
+    color: #080808;
 }
 img {
-    border: white 5px solid;
+    border: #080808 5px solid;
     border-radius: 10px;
     width: 130px;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
 }

@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.game {
+    width: 600px;
+    height: 200px;
+    border: 1px solid #000;
+}
+#uqbah {
+    width: 70px;
+    height: 70px;
+    background-image: url(https://cdn.discordapp.com/attachments/979736284677406776/1013374131665895464/IMG_20220828_160543-removebg-preview.png);
+    background-size: auto 70px;
+    position: relative;
+    top: 143px;
+}
+.jump {
+    animation: jump 0.3s linear;
+}
+@keyframes jump {
+    0% {
+        top: 143px;
+    }
+    30% {
+        top: 115px;
+    }
+    50% {
+        top: 70px;
+    }
+    80% {
+        top: 115px;
+    }
+    100% {
+        top: 143px;
+    }
+}
+#pohon {
+    width: 20px;
+    height: 40px;
+    position: relative;
+    top: 91px;
+    left: 580px;
+    background-image: url(https://cdn.discordapp.com/attachments/979736284677406776/1013375489869623367/images__13_-removebg-preview.png);
+    background-size: 20px 40px;
+    animation: pohon 1.2s infinite linear;
+}
+@keyframes pohon {
+    0% {
+        left: 600px;
+    }
+    100% {
+        left: -20px;
+    }
+}
