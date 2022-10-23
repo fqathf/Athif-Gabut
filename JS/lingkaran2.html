@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Lingkaran</title>
+</head>
+<body>
+    <p>Klik tombol di bawah untuk mencari luas dan keliling lingkaran</p>
+    <button onclick="rumusLingkaran()">Cari</button>
+
+    <p id="hasil"></p>
+    <script>
+        function rumusLingkaran() {
+            let pi = 3.14;
+            let diameter = prompt("Masukkan nilai diameter lingkaran", 14);
+            let jariJari = diameter / 2;
+
+            let luasLingkaran = pi * jariJari * jariJari;
+            let kelilingLingkaran = pi * 2 * jariJari;
+
+            if (diameter != null) {
+                document.getElementById("hasil").innerHTML =
+                "Luas Lingkaran= " + luasLingkaran + "cm^2" + "<br>" + " Keliling Lingkaran= " + kelilingLingkaran + "cm";
+            }
+        }
+    </script>
+</body>
+</html>

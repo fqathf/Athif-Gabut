@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post" id="form">
+        Diameter = 
+        <input type="number" name="Diameter" id="diameter">
+        <input type="submit" value="Submit">
+    </form>
+    <button onclick="hitung()">Hasil</button>
+    <p id="hasilHitung"></p>
+    <script>
+        function hitung(){
+            let pi = 3.14, //Pi
+                d = document.getElementById("form"), //Diameter
+                r = d / 2; //Jari-Jari
+
+            let luasLingkaran = pi * r * r,
+                kelilingLingkaran = pi * 2 * r;
+
+            document.getElementById("hasilHitung").innerHTML = 
+            "Luas Lingkaran= " + luasLingkaran + "\nKeliling Lingkaran= " + kelilingLingkaran;
+        }
+    </script>
+</body>
+</html>
