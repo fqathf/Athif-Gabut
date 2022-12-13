@@ -6,4 +6,4 @@
 <a align="center" href="uqbah-jump.netlify.com">
   <h3>Uqbah Jump</h3>
 </a>
-<img align="center" src="https://media.discordapp.net/attachments/1052010705274028103/1052011357144350791/image.png"
+<img align="center" src="https://media.discordapp.net/attachments/1052010705274028103/1052011357144350791/image.png">
