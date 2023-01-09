@@ -1,0 +1,46 @@
+.advanced-search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .advanced-search input[type="text"] {
+    width: 60%;
+    height: 2em;
+    font-size: 1em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .advanced-search button[type="submit"] {
+    width: 40%;
+    height: 2em;
+    font-size: 1em;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .advanced-options {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5em;
+  }
+  
+  .advanced-options input[type="checkbox"] {
+    display: none;
+  }
+  
+  .advanced-options label {
+    display: block;
+    font-size: 0.9em;
+    margin-right: 0.5em;
+    cursor: pointer;
+  }
+  
+  .advanced-options input[type="checkbox"]:checked + label {
+    font-weight: bold;
+  }
+  

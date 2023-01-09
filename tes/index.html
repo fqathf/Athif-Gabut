@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/search" method="get">
+        <div class="advanced-search">
+          <input type="text" name="q" placeholder="Search">
+          <button type="submit">Go</button>
+      
+          <div class="advanced-options">
+            <input type="checkbox" name="exact" id="exact" value="exact">
+            <label for="exact">Exact phrase</label>
+      
+            <input type="checkbox" name="related" id="related" value="related">
+            <label for="related">Related words</label>
+      
+            <input type="checkbox" name="synonyms" id="synonyms" value="synonyms">
+            <label for="synonyms">Synonyms</label>
+          </div>
+        </div>
+      </form>
+      
+</body>
+</html>
